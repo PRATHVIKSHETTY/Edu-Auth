@@ -1,6 +1,7 @@
 import { Bell, User } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
+import { ThemeToggle } from "@/components/ThemeToggle";
 
 export const TopNav = () => {
   return (
@@ -10,6 +11,8 @@ export const TopNav = () => {
       </div>
       
       <div className="flex items-center gap-4">
+        <ThemeToggle />
+        
         <Button variant="ghost" size="icon" className="relative">
           <Bell className="w-5 h-5" />
           <span className="absolute top-1 right-1 w-2 h-2 bg-destructive rounded-full" />
