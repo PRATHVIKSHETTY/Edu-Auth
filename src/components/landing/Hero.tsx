@@ -7,7 +7,7 @@ export const Hero = () => {
   const navigate = useNavigate();
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero animate-gradient-shift bg-[length:200%_200%]">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero animate-gradient-shift bg-[length:200%_200%] pt-16">
       {/* Floating elements */}
       <motion.div
         className="absolute top-20 left-10 opacity-20"

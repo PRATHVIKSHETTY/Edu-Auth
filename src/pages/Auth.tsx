@@ -6,12 +6,11 @@ import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { useNavigate } from "react-router-dom";
-import { User, Building2, Briefcase, Shield } from "lucide-react";
+import { User, Building2, Shield } from "lucide-react";
 
 const roles = [
   { value: "student", label: "Student", icon: User },
   { value: "institution", label: "Institution", icon: Building2 },
-  { value: "recruiter", label: "Recruiter", icon: Briefcase },
   { value: "admin", label: "Admin", icon: Shield },
 ];
 
